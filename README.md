@@ -1,1 +1,146 @@
-# cultura-guarani
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página sobre a Cultura Guarani Mbya</title>
+    <!-- Carrega a biblioteca Tailwind CSS para estilização rápida e responsiva -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Define a fonte Inter para todo o corpo do documento */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6;
+            color: #374151;
+        }
+        /* Define a cor de fundo e o alinhamento do texto para o cabeçalho e rodapé */
+        .header-bg {
+            background-color: #1f2937;
+        }
+        .footer-bg {
+            background-color: #111827;
+        }
+    </style>
+</head>
+<body>
+    <!-- Seção de Cabeçalho -->
+    <header class="header-bg text-white py-12 px-4 md:px-8 shadow-lg">
+        <div class="max-w-7xl mx-auto text-center">
+            <h1 class="text-4xl md:text-5xl font-extrabold mb-2">Cultura Guarani Mbya</h1>
+            <p class="text-lg md:text-xl font-light">Uma jornada de conhecimento e respeito</p>
+        </div>
+    </header>
+
+    <!-- Seção de Conteúdo Principal -->
+    <main class="max-w-7xl mx-auto p-4 md:p-8">
+        <!-- Card de Introdução -->
+        <section class="bg-white rounded-xl shadow-lg p-6 mb-8 transform transition duration-500 hover:scale-105">
+            <h2 class="text-2xl md:text-3xl font-bold text-gray-800 mb-4">Introdução</h2>
+            <p class="text-gray-600 mb-4 leading-relaxed">
+                A cultura do povo Guarani Mbya é rica e profunda, baseada na relação íntima com a natureza e na sabedoria ancestral.
+                Conhecer sua história e seus costumes é essencial para entender a diversidade cultural do nosso país.
+                Esta página é uma pequena homenagem a essa cultura vibrante, construída com informações e respeito.
+            </p>
+            <div class="flex justify-center items-center">
+                <!-- Imagem de placeholder para demonstração. Use uma imagem real no lugar desta. -->
+                <img src="https://placehold.co/800x500/000000/FFFFFF?text=Cultura+Guarani+Mbya"
+                     alt="Representação da Cultura Guarani Mbya"
+                     class="rounded-lg shadow-lg w-full h-auto object-cover"
+                     onerror="this.onerror=null;this.src='https://placehold.co/800x500?text=Imagem+Indisponível';">
+            </div>
+        </section>
+
+        <!-- Seção sobre o Jeito de Viver e Tekoá -->
+        <section class="grid md:grid-cols-2 gap-8 mb-8">
+            <div class="bg-white rounded-xl shadow-lg p-6 transform transition duration-500 hover:scale-105">
+                <h2 class="text-2xl md:text-3xl font-bold text-gray-800 mb-4">O Jeito de Viver</h2>
+                <p class="text-gray-600 leading-relaxed">
+                    A vida do povo Guarani Mbya está intrinsecamente ligada à sua terra, conhecida como **Tekoá**. O Tekoá não é apenas um lugar físico, mas um espaço de vida, onde a comunidade se desenvolve. A subsistência é baseada em roças, caça, pesca e coleta, mantendo um equilíbrio sustentável com a natureza.
+                </p>
+            </div>
+            <div class="bg-white rounded-xl shadow-lg p-6 flex flex-col items-center justify-center transform transition duration-500 hover:scale-105">
+                <img src="https://placehold.co/600x400/000000/FFFFFF?text=Tekoa+Guarani"
+                     alt="Representação de um Tekoá Guarani"
+                     class="rounded-lg shadow-lg w-full h-auto object-cover mb-4"
+                     onerror="this.onerror=null;this.src='https://placehold.co/600x400?text=Imagem+Indisponível';">
+                <p class="text-sm italic text-gray-500 text-center">
+                    A aldeia e a natureza são um só.
+                </p>
+            </div>
+        </section>
+
+        <!-- Seção sobre Espiritualidade -->
+        <section class="grid md:grid-cols-2 gap-8 mb-8">
+            <div class="bg-white rounded-xl shadow-lg p-6 flex flex-col items-center justify-center transform transition duration-500 hover:scale-105">
+                <img src="https://placehold.co/600x400/000000/FFFFFF?text=Espiritualidade+Guarani"
+                     alt="Símbolo da espiritualidade Guarani"
+                     class="rounded-lg shadow-lg w-full h-auto object-cover mb-4"
+                     onerror="this.onerror=null;this.src='https://placehold.co/600x400?text=Imagem+Indisponível';">
+                <p class="text-sm italic text-gray-500 text-center">
+                    A palavra é o caminho para a alma.
+                </p>
+            </div>
+            <div class="bg-white rounded-xl shadow-lg p-6 transform transition duration-500 hover:scale-105">
+                <h2 class="text-2xl md:text-3xl font-bold text-gray-800 mb-4">Espiritualidade e a Palavra</h2>
+                <p class="text-gray-600 leading-relaxed">
+                    A cosmovisão Guarani é rica em espiritualidade e tem na palavra (o **Ayvu**) seu maior pilar. O Ayvu está ligado à alma e à busca por um caminho de bem-viver, conhecido como **Nhande Rekó**. As cerimônias e cantos, guiados pelo pajé, são fundamentais para manter a conexão com as divindades e com o sagrado.
+                </p>
+            </div>
+        </section>
+        
+        <!-- Seção sobre Arte e Artesanato com botão de copiar texto -->
+        <section class="bg-white rounded-xl shadow-lg p-6 mb-8 transform transition duration-500 hover:scale-105">
+            <h2 class="text-2xl md:text-3xl font-bold text-gray-800 mb-4">Arte e Artesanato</h2>
+            <div class="grid md:grid-cols-2 gap-8 items-center">
+                <div>
+                    <p class="text-gray-600 leading-relaxed" id="texto-arte">
+                        O artesanato Guarani Mbya reflete sua cosmovisão. Cestos, cerâmicas e instrumentos musicais como o violão de madeira e o chocalho (Mbaraká) são feitos com materiais da natureza e carregam significados profundos. A arte não é apenas estética, mas uma forma de expressão da cultura e da relação com o universo.
+                    </p>
+                    <!-- Um botão de exemplo para mostrar como usar JavaScript para uma interação simples -->
+                    <button id="copy-btn" class="mt-4 px-6 py-2 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition duration-300 shadow-md">
+                        Copiar texto da seção
+                    </button>
+                    <span id="copy-message" class="text-sm ml-2 text-green-600 hidden">Copiado!</span>
+                </div>
+                <div class="flex justify-center items-center">
+                    <img src="https://placehold.co/600x400/000000/FFFFFF?text=Artesanato+Guarani"
+                         alt="Artesanato Guarani"
+                         class="rounded-lg shadow-lg w-full h-auto object-cover"
+                         onerror="this.onerror=null;this.src='https://placehold.co/600x400?text=Imagem+Indisponível';">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="footer-bg text-white py-8 px-4 md:px-8 text-center shadow-inner">
+        <p class="text-sm">Desenvolvido como uma ferramenta de aprendizado e valorização cultural.</p>
+    </footer>
+
+    <!-- JavaScript para o botão de copiar -->
+    <script>
+        // Encontra o botão e o texto no documento
+        const copyBtn = document.getElementById('copy-btn');
+        const copyMessage = document.getElementById('copy-message');
+        const textToCopy = document.getElementById('texto-arte');
+
+        // Adiciona um "ouvinte de evento" ao botão. Quando o botão é clicado...
+        copyBtn.addEventListener('click', () => {
+            // Cria um elemento de texto temporário para fazer a cópia
+            const el = document.createElement('textarea');
+            el.value = textToCopy.innerText;
+            document.body.appendChild(el);
+            el.select();
+            document.execCommand('copy');
+            document.body.removeChild(el);
+
+            // Mostra uma mensagem de sucesso
+            copyMessage.classList.remove('hidden');
+            // Esconde a mensagem depois de 2 segundos
+            setTimeout(() => {
+                copyMessage.classList.add('hidden');
+            }, 2000);
+        });
+    </script>
+</body>
+</html>
